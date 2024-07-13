@@ -19,7 +19,7 @@ body{
     background-position: center;   
 }
 .carousel-item .img1{
-    background-image: url(assets/images/home-01.jpg);
+    background-image: url(assets/images/Home-01.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -27,14 +27,14 @@ body{
 }
 
 .carousel-item .img2{
-    background-image: url(assets/images/home-02.jpg);
+    background-image: url(assets/images/Home-02.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
     min-height: 120vh;
 }
 .carousel-item .img3{
-    background-image: url(assets/images/home-03.jpg);
+    background-image: url(assets/images/Home-03.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
