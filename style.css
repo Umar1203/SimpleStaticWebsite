@@ -1,0 +1,180 @@
+*{
+    font-family: montserrat;
+    margin: 0;  
+    padding: 0;
+}
+body{
+    background: #ffffff;
+}
+.section-padding{
+    padding: 45px 100px;
+}
+.carousel-item{
+    height: 120vh;
+    min-height: 250px;
+}
+.about .about-img{
+    background-image: url(assets/images/Service-02.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.carousel-item .img1{
+    background-image: url(assets/images/home-01.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 120vh;
+}
+
+.carousel-item .img2{
+    background-image: url(assets/images/home-02.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 120vh;
+}
+.carousel-item .img3{
+    background-image: url(assets/images/home-03.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 120vh;
+}
+.carousel-caption{
+    bottom: 150px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-style: 16px;
+    line-height: 1.9;
+}
+#services{
+    background-color: rgb(255, 250, 250);
+}
+#about{
+    background-color: rgb(255, 253, 246);
+}
+
+.carousel-inner::before{
+content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.6);
+   z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    font-weight: 600;
+}
+h2{
+    font-weight: 700;
+}
+.navbar-light .navbar-brand{
+    font-size: 23px;
+    font-weight: 650;
+    letter-spacing: 3px ;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+/* .w-100{ 
+    height: 100vh;
+} */
+.card{
+    height: 100% ;
+}
+.services .card-body{
+    font-size: 30px;
+}
+.services p{
+    font-size: 18px;
+}
+.img-area img{
+    height: 350px;
+    object-fit: cover;
+}
+.form-control{
+    width: 100%;
+}
+.footer-black{
+    padding: 5px 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* .card-body .div-img1{
+    background-image: url(assets/images/building-01.jpg);
+    background-size: cover;
+    background-position: center;
+        width: 100%;
+        height: 50vh;
+}
+.card-body .div-img2{
+    background-image: url(assets/images/building-02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+
+        width: 100%;
+
+}
+.card-body .div-img3{
+    background-image: url(assets/images/building-03.jpg);
+    background-size:initial;
+    background-position: center;
+        width: 100%;
+        height: 50vh;
+
+
+} */
+
+@media only screen and (min-width: 768px){
+    .carousel-caption{
+        bottom:  170px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 200px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
